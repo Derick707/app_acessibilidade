@@ -28,8 +28,8 @@
     <a href="#conteudoPrincipal" class="pularNavegacao">Pular para conteúdo principal</a>
 
     <header class="cabecalho container">
-      <a href="https://www.google.com&quot; class="cabecalho-logo" title="Home Apeperia">
-        <svg width="205" height="59" viewBox="0 0 205 59" version="1.1" xmlns="http://www.w3.org/2000/svg&quot; xmlns:xlink="http://www.w3.org/1999/xlink"&gt;
+      <a href="https://www.google.com&quot; class="cabecalho-logo title="Home Apeperia">
+        <svg width="205" height="59" viewBox="0 0 205 59" version="1.1" xmlns="http://www.w3.org/2000/svg&quot;" xmlns:xlink="http://www.w3.org/1999/xlink&gt";></svg>
           <title>Logotipo da Apeperia</title>
 <!--                    <desc>Created using Figma</desc>-->
           <g id="Canvas" transform="translate(-2230 1001)">
@@ -110,7 +110,7 @@
 
     <section class="secaoSobre clearfix">
       <div class="container">
-        <img src="APP Acessibilidade/src/img/sobre-apeperia.png" class="secaoSobre-imgDestaque" alt>
+        <img src="acessibilidade/src/img/sobre-apeperia.png" class="secaoSobre-imgDestaque" alt>
         <h2 class="secaoSobre-titulo tituloPadrao">
           SOBRE
         </h2>
@@ -126,10 +126,10 @@
         </b>
         </p>
         <ul class="secaoSobre-plataformas">
-          <li><img src="APP Acessibilidade/src/img/android.png" alt="Android"></li>
-          <li><img src="APP Acessibilidade/src/img/blackberry.png" alt="Blackberry"></li>
-          <li><img src="APP Acessibilidade/src/img/apple.png" alt="IOS"></li>
-          <li><img src="APP Acessibilidade/src/img/windowsphone.png" alt="Windows Phone"></li>
+          <li><img src="acessibilidade/src/img/android.png" alt="Android"></li>
+          <li><img src="acessibilidade/src/img/blackberry.png" alt="Blackberry"></li>
+          <li><img src="acessibilidade/src/img/apple.png" alt="IOS"></li>
+          <li><img src="acessibilidade/src/img/windowsphone.png" alt="Windows Phone"></li>
 
         </ul>
       </div>
@@ -197,7 +197,7 @@
          
        <li id="new0" class="listaDeArtigos-itens">
         <articles class="listaDeArtigos-artigo">
-          <img src="APP Acessibilidade/src/img/10-aplicativos-mais-baixados.png" class="listaDeArtigos-artigo-img" alt="Teclado da Apple e um celular Android">
+          <img src="acessibilidade/src/img/10-aplicativos-mais-baixados.png" class="listaDeArtigos-artigo-img" alt="Teclado da Apple e um celular Android">
           <h2 class="listaDeArtigos-artigo-titulo">
             Conheça os 10 aplicastivos mais badalados do momento
           </h2>
@@ -212,7 +212,7 @@
 
         <li id="new1" class="listaDeArtigos-itens">
         <articles class="listaDeArtigos-artigo">
-          <img src="APP Acessibilidade/src/img/ux-usabilidade.jpg" class="listaDeArtigos-artigo-img" alt="Pessoa segurando um celular">
+          <img src="acessibilidade/src/img/ux-usabilidade.jpg" class="listaDeArtigos-artigo-img" alt="Pessoa segurando um celular">
           <h2 class="listaDeArtigos-artigo-titulo">
               Usabilidade: Entenda os benefícios de treinar sua equipe em UX
           </h2>
@@ -285,8 +285,47 @@
             </figcaption>
           </figure>
         </a>
-      </div>
-    </section><!--fim.secaoDestaque-->
+        <button class="secaoDestaques-form-botao btnPadrao--pequeno" id="abreDialog">
+          Receba destaque por email
+        </button>
+        <div class="dialogNewsletter" id="dialogNewsletter">
+          <div class="dialogNewsletter-body">
+
+            <h2 class="dialogNewsletter-titulo">News sem spam</h2>
+            <h3 class="dialogNewsletter-texto">
+              Assine nossa newletter para receber notícias técnicas sem spam!
+            </h3>
+            <form class="dialogNewsletter-form">
+              <label class="dialogNewsletter-label">
+                Email:
+              </label>
+              <input type="text" class="dialogNewsletter-campo" placeholder="Digite se e-mail...">
+              <button class="dialogNewsletter-btn">
+                Assinar newletter
+              </button>
+              <button class="dialogNewsletter-fechar">
+                X
+              </button>
+            </form>
+          </div>
+          <div class="dialogNewsletter-overlay"></div>
+        </div>
+        </section><!--fim.secaoDestaque-->
+
+        <section class="secaoContato">
+          <div  class="container">
+            <h2 class="tituloPadrao">
+              CONTATO 
+            </h2>
+
+            <form class="secaoContato-form">
+              <p class="secaoContato-form-legend">
+                Oi, tudo bem? Fale com a gente!
+                Preencha seus dados e sua mensagem;
+              </p>
+            </form>
+          </div>
+        </section>
 
 
  
