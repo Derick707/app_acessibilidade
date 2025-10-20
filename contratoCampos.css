@@ -48,3 +48,61 @@
     width: 100%;
     text-aling: left;
 }
+
+.contatoCampo {
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+
+.contatoCampo input,
+.contatoCampo textarea {
+    font-size: 1em;
+    padding: .5em;
+    min-height: 50px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    outline: 0;
+}
+
+.contatoCampo input:focus,
+.contatoCampo textarea:focus {
+    border: 2px solid #222;
+}
+
+.contatoCampo-campoDesabilitado {
+    background-color: #ddd;
+}
+
+.contatoCampo-msg,
+.formContato-validaco {
+    margin-left: 4px;
+    margin-top: 4px;
+    font-size: .9em;
+    font-weight: bold;
+    color: #fd1242;
+    display: inline-block;
+}
+
+.contatoCampo .contatoCampo--validouFoi {
+    border: 2px solid #219652;
+    background-color: #fff;
+    position: relative;
+}
+
+.contatoCampo .contatoCampo--validouErrou {
+    border: 2px solid #ff0000;
+    background-color: #fff;
+    position: relative;
+}
+
+.contatoCampo--sucesso::before {
+    content: '';
+    display: inline-block;
+    width: 33px;
+    height: 32px;
+    position: absolute;
+    z-index: 1;
+    right: .4em;
+    transform: translateY(112%) scale(.65);
+    background-image: url(..//app_acessibilidade/va);
+}
